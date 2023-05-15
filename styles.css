@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+*{
+    padding: 0px;
+}
+/*Estilos para el sitio de portafolio personal*/
+body{
+    text-align: center;
+    font-family: 'Wix Madefor Display', sans-serif;
+    background-color: lightcoral;
+    color: white;
+    margin: 0;
+}
+/*Estilos para el encabezado */
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+header img{
+    width: 80px;
+    border-radius: 100%;
+}
+h1{
+    margin: 0;
+    font-size: 36px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
